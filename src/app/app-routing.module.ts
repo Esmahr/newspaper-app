@@ -15,7 +15,7 @@ import { CategoryComponent } from './category/category.component'
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'about', component: AboutComponent },
+  { path: 'about.component', component: AboutComponent },
   { path: 'category.component', component: CategoryComponent },
   { path: 'business.component', component: BusinessComponent },
   { path: 'entertainment.component', component: EntertainmentComponent },
