@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {HttpClientModule} from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +15,8 @@ import { TechnologyComponent } from './technology/technology.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
+import {NewsapiserviceService} from './newsapiservice.service';
+import { CategoryComponent } from './category/category.component'
 
 @NgModule({
   declarations: [
@@ -28,13 +31,15 @@ import { FooterComponent } from './footer/footer.component';
     TechnologyComponent,
     AboutComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    CategoryComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [NewsapiserviceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
