@@ -9,7 +9,7 @@ export class SearchService {
   constructor(private http: HttpClient) { }
 
   getSearch(query: string) {
-    return this.http.get('https://api.themoviedb.org/3/search/movie?api_key=2937a1755f75e11815ec137a11f8c4b3&query=' + query)
+    return this.http.get(`https://newsapi.org/v2/everything?q=${query}&apiKey=676f017549224f488970f1835f9db971`)
   }
 }
 
