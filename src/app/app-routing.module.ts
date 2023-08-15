@@ -1,29 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutComponent } from './about/about.component';
-import { BusinessComponent } from './business/business.component';
-import { EntertainmentComponent } from './entertainment/entertainment.component';
-import { GeneralComponent } from './general/general.component';
-import { HealthComponent } from './health/health.component';
-import { ScienceComponent } from './science/science.component';
-import { SportsComponent } from './sports/sports.component';
-import { TechnologyComponent } from './technology/technology.component';
-import { AppComponent } from './app.component';
-import { CarouselComponent } from './carousel/carousel.component'
-import { HomeComponent } from './home/home.component';
-import { CategoryComponent } from './category/category.component'
+import { AboutComponent } from './pages/about/about.component';
+import { HomeComponent } from './pages/home/home.component';
+import { CategoryComponent } from './pages/category/category.component'
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'about.component', component: AboutComponent },
-  { path: 'category.component', component: CategoryComponent },
-  { path: 'business.component', component: BusinessComponent },
-  { path: 'entertainment.component', component: EntertainmentComponent },
-  { path: 'general.component', component: GeneralComponent },
-  { path: 'health.component', component: HealthComponent },
-  { path: 'science.component', component: ScienceComponent },
-  { path: 'sports.component', component: SportsComponent },
-  { path: 'technology.component', component: TechnologyComponent }
+  { path: 'category.component', component: CategoryComponent }
 ];
 
 @NgModule({

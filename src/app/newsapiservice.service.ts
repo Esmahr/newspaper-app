@@ -9,7 +9,7 @@ export class NewsapiserviceService {
 
   constructor(private _http: HttpClient) { }
 
-  newsApiUrl = "https://newsapi.org/v2/top-headlines?country=tr&apiKey=676f017549224f488970f1835f9db971"
+  newsApiUrl = "https://newsapi.org/v2/top-headlines?country=tr&apiKey=e71a6cd1653346adb8ff9f65f12970c6"
   topHeading(): Observable<any> {
     return this._http.get(this.newsApiUrl)
   }

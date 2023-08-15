@@ -1,0 +1,72 @@
+
+.col-md-6 .row,
+.sec1 {
+    margin-top: .5rem;
+}
+
+.card-text {
+    line-height: 1.7;
+    color: gray;
+    font-weight: 300;
+    font-size: .9rem;
+}
+
+.post-meta {
+    font-size: .8rem;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.date-read {
+    color: #b4b4b4;
+}
+
+.sec1 h5 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.sec1 a {
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    color: black;
+}
+
+.sec1 .card-body{
+    padding: 1rem;
+}
+
+.row a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+}
+
+.row h4{
+    font-size: 26px;
+    margin-bottom: 1rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: .9;
+    color: inherit;
+}
+
+.row .contents{
+    padding: .5rem;
+}
+
+.trend-entry .number {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50px;
+    flex: 0 0 50px;
+    font-size: 30px;
+    line-height: 1;
+    color: #ccc;
+}
+
+.trend-entry{
+    margin-top: 2rem;
+}

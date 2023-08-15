@@ -1,0 +1,32 @@
+.header{
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+.list{
+    padding-left: 4.5rem;
+    padding-right: 6rem; 
+    padding-top: 2rem;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+input{
+    border-color: #bebebe;
+    border-right: none;
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    height: 100%;
+}
+
+
+button{
+    border-color: #bebebe;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+}
+
+button:hover{
+    border-color: #969696;
+    background-color: #bebebe;
+}

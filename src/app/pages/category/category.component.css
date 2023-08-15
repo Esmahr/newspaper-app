@@ -1,0 +1,27 @@
+
+.nav-tabs .nav-link{
+    color: #333;
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-bottom: 2rem;
+}
+
+.nav-tabs .nav-link.active{
+    border: none;
+    font-weight: bold;
+}
+
+.nav-tabs .nav-link:hover{
+    border: none;
+}
+
+.sidebar{
+    height: 100%;
+    position: fixed;
+}
+
+.col-10{
+    margin-left: 15rem;
+    padding-top: 5rem;
+}
