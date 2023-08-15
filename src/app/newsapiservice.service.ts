@@ -14,7 +14,7 @@ export class NewsapiserviceService {
     return this._http.get(this.newsApiUrl)
   }
 
-  businessUrl = "https://newsapi.org/v2/top-headlines?country=tr&category=business&apiKey=676f017549224f488970f1835f9db971"
+  businessUrl = "https://newsapi.org/v2/top-headlines?country=tr&category=business&apiKey=e71a6cd1653346adb8ff9f65f12970c6"
   topBusiness(): Observable<any> {
     return this._http.get(this.businessUrl);
   }
@@ -42,6 +42,10 @@ export class NewsapiserviceService {
   sportsApiUrl = "https://newsapi.org/v2/top-headlines?country=tr&category=sports&apiKey=676f017549224f488970f1835f9db971"
   topSports(): Observable<any> {
     return this._http.get(this.sportsApiUrl);
+  }
+
+  getSearch(query: string) {
+    return this._http.get(`https://newsapi.org/v2/everything?q=${query}&apiKey=676f017549224f488970f1835f9db971`)
   }
 
 }

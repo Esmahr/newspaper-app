@@ -6,7 +6,6 @@
 .list{
     padding-left: 4.5rem;
     padding-right: 6rem; 
-    padding-top: 2rem;
     text-transform: uppercase;
     font-size: 14px;
 }
@@ -29,4 +28,17 @@ button{
 button:hover{
     border-color: #969696;
     background-color: #bebebe;
+}
+
+.nav-link{
+    padding-right: 3rem;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-link:active{
+    font-weight: bold;
 }
