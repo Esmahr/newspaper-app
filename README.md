@@ -2,9 +2,8 @@ News Api'den gelen *description* ve *urlToImage* değerleri null geldiği için 
 
 ## Anasayfa
 
-![](/src/assets/home1.png)
-![](/src/assets/home2.png)
+![](/src/assets/home.png)
 
-## Business sayfası
+## Category sayfası
 
-![](/src/assets/business.png)
+![](/src/assets/category.png)
